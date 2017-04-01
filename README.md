@@ -2,7 +2,7 @@
 
 Digital cameras often automatically adjust frame exposure time and white balance across time to adapt to varying lighting conditions. This causes the color and intensity of surfaces viewed to vary. Such differences in exposure and white balance can cause severe visual artifacts or color variation on textures of 3D reconstructions. 
 
-In this project, we developed an algorithm to reverse automatic exposure time and white balance adjustments. Once corrected, the images were fed into the pipeline of [Google Tango](https://get.google.com/tango/) to produce a better represenation can be used to create more natural textures for 3D reconstructions. A sample exposure corretion can be seen below:
+In this project, we developed an algorithm to reverse automatic exposure time and white balance adjustments. Once corrected, the images were fed into the pipeline of [Google Tango](https://get.google.com/tango/) to produce a better represenation of the real colors of the scene. A sample exposure corretion can be seen below:
 
 ![Animation showing the original and exposure corrected versions of a mesh](https://raw.githubusercontent.com/hesamrabeti/ExposureEstimationShowcase/master/spencer_room.gif)
 
